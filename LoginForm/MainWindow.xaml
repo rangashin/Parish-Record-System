@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginForm"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="920" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
+        Title="MainWindow" Height="800" Width="1120" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
         AllowsTransparency="True">
     <Border Background="#1a75ba">
         <Grid MouseDown="Border_MouseDown">
@@ -50,7 +50,7 @@
        
 
         </StackPanel>
-        <Button x:Name="BtnExit" Grid.Column="1" Margin="650,0,0,43" Click="BtnExit_Click">
+        <Button x:Name="BtnExit" Grid.Column="1" Margin="850,0,0,43" Click="BtnExit_Click">
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="ExitToApp"></materialDesign:PackIcon>
             </StackPanel>
