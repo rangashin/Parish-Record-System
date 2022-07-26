@@ -25,14 +25,14 @@
         <StackPanel Grid.Row="1" Margin="10,10,10,0">
             <Button x:Name="AddForm" HorizontalAlignment="Center" Width="200" Height="52" Click="AddForm_Click">
                 <StackPanel Orientation="Horizontal" Width="175">
-                    <materialDesign:PackIcon Kind="File" Height="46" Width="64"></materialDesign:PackIcon>
+                    <materialDesign:PackIcon Kind="BookPlusMultipleOutline" Height="46" Width="64"></materialDesign:PackIcon>
                     <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
                 </StackPanel>
             </Button>
             <Button x:Name="Information"  HorizontalAlignment="Center" Width="200" Height="58" Click="Info_Click">
                 <StackPanel Orientation="Horizontal" Width="180">
-                    <materialDesign:PackIcon Kind="InformationVariant" Height="46" Width="61"></materialDesign:PackIcon>
-                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="INFORMATION"></TextBlock>
+                    <materialDesign:PackIcon Kind="BookEditOutline" Height="46" Width="61"></materialDesign:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="CONFIRMATION"></TextBlock>
                 </StackPanel>
             </Button>
             <Button x:Name="AboutUs"  HorizontalAlignment="Center" Width="200" Height="52" Click="AboutUs_Click">

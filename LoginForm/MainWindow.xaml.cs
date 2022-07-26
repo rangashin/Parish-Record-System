@@ -34,7 +34,7 @@ namespace LoginForm
 
         private void AddForm_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Page1();
+            Main.Content = new addformpage();
         }
 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
@@ -45,7 +45,7 @@ namespace LoginForm
 
         private void Info_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Page2();
+            Main.Content = new confirmationpage();
         }
 
         private void AboutUs_Click(object sender, RoutedEventArgs e)
@@ -59,5 +59,6 @@ namespace LoginForm
             this.Close();
             login.Show();
         }
+
     }
 }
