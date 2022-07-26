@@ -1,0 +1,35 @@
+﻿<Page x:Class="LoginForm.Pages.confirmationpage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LoginForm.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      mc:Ignorable="d" 
+      
+      Title="confirmationpage" Height="588" Width="993">
+
+    <Grid>
+        <materialDesign:Card Content="" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="1062" Margin="-76,-54,0,0"/>
+        <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="354,155,0,381">
+            <StackPanel Orientation="Horizontal" Width="175">
+                <materialDesign:PackIcon Kind="BabyFaceOutline" Height="46" Width="61"></materialDesign:PackIcon>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Baptismal"></TextBlock>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Marriage"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="354,253,0,283">
+            <StackPanel Orientation="Horizontal" Width="175">
+                <materialDesign:PackIcon Kind="Ring" Height="46" Width="61"></materialDesign:PackIcon>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Marriage"></TextBlock>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="354,355,0,181">
+            <StackPanel Orientation="Horizontal" Width="175">
+                <materialDesign:PackIcon Kind="Coffin" Height="46" Width="61"></materialDesign:PackIcon>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Death Cert."></TextBlock>
+            </StackPanel>
+        </Button>
+    
+
+    </Grid>
+</Page>

@@ -1,0 +1,32 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LoginForm.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="LoginForm.Pages.addformpage"
+      mc:Ignorable="d"
+      Title="addformpage" Height="588" Width="993">
+
+    <Grid Margin="10,0,0,0">
+        <Frame Grid.Column="1" Background="White" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"   />
+        <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="388,157,0,379" Click="Baptismal_Click">
+            <StackPanel Orientation="Horizontal" Width="175">
+                <materialDesign:PackIcon Kind="BabyFaceOutline" Height="46" Width="61"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Baptismal"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Marriage"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="388,255,0,281" Click="Marriage_Click">
+            <StackPanel Orientation="Horizontal" Width="175">
+                <materialDesign:PackIcon Kind="Ring" Height="46" Width="61"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Marriage"/>
+            </StackPanel>
+        </Button>
+        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="388,357,0,179" Click="Death_Click">
+            <StackPanel Orientation="Horizontal" Width="175">
+                <materialDesign:PackIcon Kind="Coffin" Height="46" Width="61"/>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Death Cert."/>
+            </StackPanel>
+        </Button>
+    </Grid>
+</Page>
