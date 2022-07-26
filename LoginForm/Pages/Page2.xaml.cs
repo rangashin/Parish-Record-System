@@ -34,5 +34,9 @@ namespace LoginForm.Pages
         {
 
         }
+
+        private void Close_Button(object sender, RoutedEventArgs e)
+        {
+        }
     }
 }

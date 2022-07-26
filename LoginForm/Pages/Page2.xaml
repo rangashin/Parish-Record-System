@@ -111,9 +111,12 @@
 			<StackPanel Orientation="Vertical" Name="spRoles" Margin="4,40,-4,-40">
 				<RadioButton Name="radBMale" HorizontalAlignment="Left" Margin="111,160,0,0" VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="14"/>
 				<RadioButton Name="radBFemale" HorizontalAlignment="Left" Margin="111,0,0,0" VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="14"/>
+
 			</StackPanel>
 			<Button Content="Submit" Height="24" Width="82" HorizontalAlignment="Left" Margin="112,486,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
 			<Button Content="Clear" Height="24" Width="82" HorizontalAlignment="Left" Margin="205,486,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14"/>
+
+			<Button Content="Close" Height="24" Width="82" HorizontalAlignment="Left" Margin="153,521,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="14" Click="Close_Button"/>
 
 			<Label Content="Baptismal Certificate" HorizontalAlignment="Center" Margin="0,6,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" FontFamily="Tw Cen MT"/>
 
