@@ -1,0 +1,100 @@
+﻿<Page x:Class="Login_Form.Page3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Navigation_Drawer_App"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page3">
+
+    <Grid  Height="600" Width="450" Background="Black">
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,5,0,0" Name="textBlockHeading" 
+         Text="Registration:" VerticalAlignment="Top" Width="110"  FontSize="17" FontStretch="ExtraCondensed"/>
+        <!--Button as a Link button using style-->
+        <Button>
+            <Button.Template>
+                <ControlTemplate>
+                    <TextBlock>  
+                    <ContentPresenter />
+                    </TextBlock>
+                </ControlTemplate>
+            </Button.Template>
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Foreground" Value="Navy" />
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Foreground" Value="Red" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+        <!--end Button as a Link button using style-->
+        <Grid Margin="30,16,30,0" Background="Azure" Height="414" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="149*" />
+                <RowDefinition Height="51*"/>
+                <!--   <RowDefinition Height="12*" />-->
+            </Grid.RowDefinitions>
+            <TextBlock Height="20" HorizontalAlignment="Center" Margin="0,28,0,0" x:Name ="errormessage" VerticalAlignment="Top" Width="246"  OpacityMask="Crimson" Foreground="#FFE5572C" />
+
+            <DatePicker Height="25" HorizontalAlignment="Left" Margin="112,130,0,0" Name="dateDPicker1" VerticalAlignment="Top" Width="222" FontFamily="Arial" FontSize="14" />
+
+            <!--For First Name-->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,48,0,0" Name="textBlockDFirstname" Text="First Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+            <!--For Last Name-->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,76,0,0" Name="textBlockDLastName" Text="Last Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+            <!--For Middle Name-->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,104,0,0" Name="textBlockDMiddleName" Text="Middle Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+            <!--For Date of Death-->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,133,0,0" Name="textBlockDDeath" Text="Date of Death:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14"  />
+            <!--For Place of Death-->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,161,0,0" Name="textBlockPDeath" Text="Place of Death:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14"  />
+            <!--For Sex-->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,189,0,0" Name="textBlockDSex" Text="Sex:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+
+
+            <!--For Lower Section -->
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,232,0,0" Name="textBlockDAddress" Text="Address:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,258,0,0" Name="textBlockDCivil" Text="Civil Status:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,285,0,0" Name="textBlockDCause" Text="Cause of Death:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="14" />
+
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,3,0,0" Name="textBlockDProvince" Text="Province:" VerticalAlignment="Top" Width="110" Grid.Row="1" FontFamily="Arial" FontSize="14" />
+
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="4,33,0,0" Name="textBlockDCity" Text="Municipality/City:" VerticalAlignment="Top" Width="110" Grid.Row="1" FontFamily="Arial" FontSize="14" />
+
+
+
+
+
+            <!-- Text Boxes-->
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,47,0,0" Name="textBoxDFirstName" VerticalAlignment="Top" Width="222" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,75,0,0" Name="textBoxDLastName" VerticalAlignment="Top" Width="222" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,103,0,0" Name="textBoxDMiddleName" VerticalAlignment="Top" Width="222" />
+
+
+
+            <TextBox Height="22" HorizontalAlignment="Left" Margin="112,232,0,0" Name="textBoxDAddress" VerticalAlignment="Top" Width="222" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,258,0,0" Name="textBoxDCivil" VerticalAlignment="Top" Width="222" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,286,0,0" Name="textBoxDCause" VerticalAlignment="Top" Width="222" Grid.RowSpan="2" RenderTransformOrigin="0.523,-1.957" />
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,0,0,125" Name="textBoxDPlace" VerticalAlignment="Bottom" Width="222" />
+
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,5,0,0" Name="textBoxDProvince" VerticalAlignment="Top" Width="222" Grid.Row="1" />
+
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="112,33,0,0" Name="textBoxDCity" VerticalAlignment="Top" Width="222" Grid.Row="1" />
+
+            <StackPanel Orientation="Vertical" Name="spRoles" Margin="4,40,-4,-40">
+                <RadioButton Name="radMale" HorizontalAlignment="Left" Margin="111,148,0,0" VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="14"/>
+                <RadioButton Name="radFemale" HorizontalAlignment="Left" Margin="111,0,0,0" VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="14"/>
+            </StackPanel>
+            <Button Content="Submit" Height="24" Width="70" HorizontalAlignment="Left" Margin="112,61,0,0" VerticalAlignment="Top" Grid.Row="1" RenderTransformOrigin="0.5,-0.521" FontFamily="Arial" FontSize="14"/>
+            <Button Content="Clear" Height="24" Width="70" HorizontalAlignment="Left" Margin="188,61,0,0" VerticalAlignment="Top" Grid.Row="1" FontFamily="Arial" FontSize="14"/>
+
+            <Label Content="Death Certificate" HorizontalAlignment="Left" Margin="78,2,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold" FontFamily="Tw Cen MT"/>
+        </Grid>
+    </Grid>
+</Page>  
