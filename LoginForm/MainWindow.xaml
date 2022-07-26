@@ -6,51 +6,69 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginForm"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="920" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="Transparent"
+        Title="MainWindow" Height="600" Width="920" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Background="#1a75ba"
         AllowsTransparency="True">
-    <Border Background="#1a75ba">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition  Width="200"></ColumnDefinition>
-                <ColumnDefinition ></ColumnDefinition>
 
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions >
-                <RowDefinition Height="75"></RowDefinition>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
-            <TextBlock Text="Parish Record System"
-           VerticalAlignment="Center"
-           HorizontalAlignment="Left"
-           Foreground="White"
-           Margin="20,0,0,0" FontSize="16" />
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="200"></ColumnDefinition>
+            <ColumnDefinition ></ColumnDefinition>
 
-            <StackPanel Grid.Row="1">
-                <RadioButton Content="Add Forms"
-                Height="50"
-                Foreground="White"
-                FontSize="14"
-                Style="{StaticResource MenuButtonTheme}" />
-                <RadioButton Content="Confirmations"
-                Height="50"
-                Foreground="White"
-                FontSize="14"
-                Style="{StaticResource MenuButtonTheme}" />
-                <RadioButton Content="About Us"
-                Height="50"
-                Foreground="White"
-                FontSize="14"
-                Style="{StaticResource MenuButtonTheme}" />
-                <RadioButton Content="Logout"
-                Height="50"
-                Foreground="White"
-                FontSize="14"
-                Style="{StaticResource MenuButtonTheme}" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="75"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        
+
+        <StackPanel Grid.Row="1" Margin="0,10,0,0">
+            <Button x:Name="AddForm" Canvas.Top="65" HorizontalAlignment="Center" Width="200" Height="52" Click="AddForm_Click">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="File" Height="46" Width="61"></materialDesign:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Canvas.Top="65" HorizontalAlignment="Center" Width="200" Height="58">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="File" Height="46" Width="61"></materialDesign:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Canvas.Top="65" HorizontalAlignment="Center" Width="200" Height="52">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="File" Height="46" Width="61"></materialDesign:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Canvas.Top="65" HorizontalAlignment="Center" Width="200" Height="48">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="File" Height="46" Width="61"></materialDesign:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
+                </StackPanel>
+            </Button>
+            <Button Canvas.Top="65" HorizontalAlignment="Center" Width="200" Height="52">
+                <StackPanel Orientation="Horizontal">
+                    <materialDesign:PackIcon Kind="File" Height="46" Width="61"></materialDesign:PackIcon>
+                    <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
+                </StackPanel>
+            </Button>
+
+        </StackPanel>
+        <Button x:Name="BtnExit" Grid.Column="1" Margin="640,6,10,37" Click="BtnExit_Click">
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="ExitToApp"></materialDesign:PackIcon>
             </StackPanel>
+        </Button>
+
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PARISH RECORD SYSTEM" FontSize="40" FontWeight="Black" Grid.Column="1" Margin="10,0,10,0"/>
+
+
+        <Frame Grid.Column="1" Background="White" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden" Navigated="Main_Navigated"/>
 
 
 
-        </Grid>
-    </Border>
 
-    </Window>
+
+    </Grid>
+
+</Window>
