@@ -59,7 +59,7 @@
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PARISH RECORD SYSTEM" FontSize="40" FontWeight="Black" Grid.Column="1" Margin="10,0,10,0"/>
 
 
-        <Frame Grid.Column="1" Background="White" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"   />
+        <Frame Grid.Column="1" Background="Azure" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden" Navigated="Main_Navigated"   />
 
 
 
