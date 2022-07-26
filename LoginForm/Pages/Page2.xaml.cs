@@ -24,5 +24,15 @@ namespace LoginForm.Pages
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void textBoxHMiddleName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
