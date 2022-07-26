@@ -12,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using LoginForm.Pages;
 
 namespace LoginForm
 {
@@ -29,10 +30,34 @@ namespace LoginForm
         {
             Application.Current.Shutdown();
         }
+ 
 
         private void AddForm_Click(object sender, RoutedEventArgs e)
         {
+            Main.Content = new Page1();
+        }
 
+        private void Border_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            DragMove(); 
+
+        }
+
+        private void Info_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page2();
+        }
+
+        private void AboutUs_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page3();
+        }
+
+        private void BtnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            Login login = new Login();
+            this.Close();
+            login.Show();
         }
     }
 }
