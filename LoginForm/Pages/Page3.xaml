@@ -94,8 +94,11 @@
                 <RadioButton Name="radMale" HorizontalAlignment="Left" Margin="122,153,0,0" VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="18"/>
                 <RadioButton Name="radFemale" HorizontalAlignment="Left" Margin="122,0,0,0" VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="18"/>
             </StackPanel>
-            <Button Content="Submit" Height="34" Width="94" HorizontalAlignment="Left" Margin="88,432,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,-0.521" FontFamily="Arial" FontSize="18"/>
-            <Button Content="Clear" Height="34" Width="93" HorizontalAlignment="Left" Margin="193,432,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
+
+            <!-- Buttons -->
+            <Button Content="Submit" Height="34" Width="94" HorizontalAlignment="Left" Margin="88,432,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
+            <Button Content="Clear" Height="34" Width="94" HorizontalAlignment="Left" Margin="193,432,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
+            <Button Content="Close" Height="34" HorizontalAlignment="Right" Margin="0,432,599,0" Name="button3" VerticalAlignment="Top" Width="93" FontFamily="Arial" FontSize="18" />
 
             <Label Content="Death Certificate" HorizontalAlignment="Left" Margin="25,15,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT"/>
         </Grid>

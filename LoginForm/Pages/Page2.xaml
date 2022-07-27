@@ -117,10 +117,10 @@
                 <RadioButton Name="radBFemale" HorizontalAlignment="Left" Margin="128,0,0,0" VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="18"/>
 
             </StackPanel>
-            <Button Content="Submit" Height="30" Width="90" HorizontalAlignment="Left" Margin="34,534,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
-            <Button Content="Clear" Height="30" Width="90" HorizontalAlignment="Left" Margin="133,534,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
+            <Button Content="Submit" Name="Submit" Height="30" Width="90" HorizontalAlignment="Left" Margin="34,534,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
+            <Button Content="Clear" Name="Clear" Height="30" Width="90" HorizontalAlignment="Left" Margin="133,534,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18"/>
 
-            <Button Content="Close" Height="30" Width="90" HorizontalAlignment="Left" Margin="231,534,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18" Click="Close_Button"/>
+            <Button Content="Close" Name="Close" Height="30" Width="90" HorizontalAlignment="Left" Margin="231,534,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="18" Click="Close_Button"/>
 
             <Label Content="Baptismal Certificate" HorizontalAlignment="Left" Margin="15,1,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT"/>
 
