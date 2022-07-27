@@ -21,12 +21,16 @@
 
             <TextBlock HorizontalAlignment="Left" Margin="40,193,0,0" TextWrapping="Wrap" Text="Ang St.Peter Parish: Shrine of Leaders ay nagsilbing sentro ng mga gawaing Socio Pastoral ng buong Diocese of Novaliches." VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
 
-            <TextBlock HorizontalAlignment="Left" Margin="40,296,0,0" TextWrapping="Wrap" Text="Blk 44, lot 7 and 8 NCE 1, Commonwealth Ave., Quezon City" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
+            <TextBlock HorizontalAlignment="Left" Margin="44,296,0,0" TextWrapping="Wrap" Text="Blk 44, lot 7 and 8 NCE 1, Commonwealth Ave., Quezon City" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
             <Label Content="Parish Priest" HorizontalAlignment="Left" Margin="40,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
-            <TextBlock HorizontalAlignment="Left" Margin="44,387,0,0" TextWrapping="Wrap" Text="Rev. Fr. Allan Samonte " VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
+            <TextBlock HorizontalAlignment="Left" Margin="44,387,0,0" TextWrapping="Wrap" Text="Rev. Fr. Allan Samonte " VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Bold"/>
+            <Label Content="Diocese" HorizontalAlignment="Left" Margin="40,441,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
 
 
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="43,419,0,0" TextWrapping="Wrap" Text="Parish Priest and Shrine Rector" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,413,0,0" TextWrapping="Wrap" Text="Parish Priest and Shrine Rector" VerticalAlignment="Top" FontFamily="Arial" FontSize="18" FontWeight="Normal"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,489,0,0" TextWrapping="Wrap" Text="Roman Catholic Diocese of Novaliches" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
+        <Label Content="Bishop" HorizontalAlignment="Left" Margin="43,517,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Margin="43,564,0,0" TextWrapping="Wrap" Text="Most Rev. Roberto O. Gaa, D.D" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
     </Grid>
 </Page>
