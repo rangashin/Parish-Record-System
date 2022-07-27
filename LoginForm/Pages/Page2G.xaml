@@ -16,7 +16,7 @@
             <RowDefinition Height="95*"/>
         </Grid.RowDefinitions>
         <!--Button as a Link button using style-->
-        <Button Margin="0,0,-170,0" Click="Button_Click" Grid.RowSpan="3">
+        <Button  Grid.RowSpan="3">
             <Button.Template>
                 <ControlTemplate>
                     <TextBlock>  
