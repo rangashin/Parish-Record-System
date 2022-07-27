@@ -10,8 +10,12 @@
       Title="Page2">
 
     <Grid  Height="650" Width="800">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="547*"/>
+            <RowDefinition Height="103*"/>
+        </Grid.RowDefinitions>
         <!--Button as a Link button using style-->
-        <Button Margin="0,0,-170,0" Click="Button_Click">
+        <Button Margin="0,0,-170,0" Click="Button_Click" Grid.RowSpan="2">
             <Button.Template>
                 <ControlTemplate>
                     <TextBlock>  
@@ -31,7 +35,7 @@
             </Button.Style>
         </Button>
         <!--end Button as a Link button using style-->
-        <Grid Margin="-90,0,10,0" Background="Azure" Height="1500" VerticalAlignment="Top">
+        <Grid Margin="-90,0,10,0" Background="Azure" Height="1500" VerticalAlignment="Top" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="252*" />
                 <!--   <RowDefinition Height="12*" />-->

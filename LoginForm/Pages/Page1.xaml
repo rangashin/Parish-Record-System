@@ -127,9 +127,9 @@
 
 
             <!-- Buttons -->
-            <!-- <Button Content="Submit" Height="23" HorizontalAlignment="Left" Margin="293,395,0,0" Name="Submit" VerticalAlignment="Top" Width="70" Click="" FontFamily="Arial" FontSize="14" />
-            <Button Content="Reset" Height="23" HorizontalAlignment="Left" Margin="378,395,0,0" Name="button2" VerticalAlignment="Top" Width="70" Click="" FontFamily="Arial" FontSize="14" />
-            <Button Content="Cancel" Height="24" HorizontalAlignment="Right" Margin="0,395,198,0" Name="button3" VerticalAlignment="Top" Width="70" Click="" RenderTransformOrigin="0.172,-0.151" FontFamily="Arial" FontSize="14" /> -->
+            <Button Content="Submit" Height="30" HorizontalAlignment="Left" Margin="316,523,0,0" Name="Submit" VerticalAlignment="Top" Width="90" FontFamily="Arial" FontSize="14" />
+            <Button Content="Reset" Height="30" HorizontalAlignment="Left" Margin="432,523,0,0" Name="button2" VerticalAlignment="Top" Width="90"  FontFamily="Arial" FontSize="14" />
+            <Button Content="Cancel" Height="30" HorizontalAlignment="Right" Margin="0,523,441,0" Name="button3" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.172,-0.151" FontFamily="Arial" FontSize="14" />
 
 
             <Label Content="Marriage Certificate" HorizontalAlignment="Left" Margin="245,28,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT"/>
