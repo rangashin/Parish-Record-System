@@ -17,94 +17,78 @@
 
 
         <!-- Label Content -->
-        <Label Content="Husband" HorizontalAlignment="Left" Margin="212,88,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="24"/>
-        <Label Content="Wife" HorizontalAlignment="Left" Margin="594,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="24"/>
+        <Label Content="Husband Details" HorizontalAlignment="Left"  VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="24" Margin="60,150,0,0"/>
+        <Label Content="Wife Details" HorizontalAlignment="Left"  VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="24" Margin="462,150,0,0"/>
 
 
 
         <!-- For Husband -->
         <!--For First Name-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="29,118,0,0" Name="textBlockHFirstname" Text="First Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Name="textBlockHFirstname" Text="First Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" Margin="60,199,0,0" />
         <!--For Last Name-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="29,150,0,0" Name="textBlockHLastName" Text="Last Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Name="textBlockHLastName" Text="Last Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" Margin="60,238,0,0" />
         <!--For Middle Name-->
-        <TextBlock Height="22" HorizontalAlignment="Left" Margin="29,182,0,0" Name="textBlockHEmailId" Text="Middle Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Name="textBlockHEmailId" Text="Middle Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" Margin="58,276,0,0" />
         <!--For Place of Birth-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="29,216,0,0" Name="textBlockHPlace" Text="Place of Birth:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18"  />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="60,313,0,0" Name="textBlockHPlace" Text="Place of Birth:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18"  />
         <!--For Sex-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="29,249,0,0" Name="textBlockHSex" Text="Sex:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Address-->
-        <TextBlock Height="22" HorizontalAlignment="Left" Margin="29,304,0,0" Name="textBlockHAddress" Text="Address:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="58,353,0,0" Name="textBlockHAddress" Text="Address:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Religion-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="29,332,0,0" Name="textBlockHRel" Text="Religion:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
 
 
         <!-- Text Boxes-->
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="144,112,0,0" Name="textBoxHFirstName" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="147,150,0,0" Name="textBoxHLastName" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="144,171,0,0" Name="textBoxHMiddleName" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="34" HorizontalAlignment="Left" Margin="144,292,0,0" Name="textBoxHAddress" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="144,199,0,0" Name="textBoxHBirth" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="144,319,0,0" Name="textBoxHReligion" VerticalAlignment="Top" Width="222" FontSize="18" />
+        <TextBox Height="33" HorizontalAlignment="Left" Name="textBoxHFirstName" VerticalAlignment="Top" Width="222" FontSize="18" Margin="174,189,0,0" FontFamily="Arial" />
+        <TextBox Height="33" HorizontalAlignment="Left" Name="textBoxHLastName" VerticalAlignment="Top" Width="222" FontSize="18" Margin="174,227,0,0" FontFamily="Arial" />
+        <TextBox Height="33" HorizontalAlignment="Left" Name="textBoxHMiddleName" VerticalAlignment="Top" Width="222" FontSize="18" Margin="174,265,0,0" FontFamily="Arial" />
+        <TextBox Height="33" HorizontalAlignment="Left" Name="textBoxHBirth" VerticalAlignment="Top" Width="222" FontSize="18" Margin="174,303,0,0" FontFamily="Arial" />
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="174,341,0,0" Name="textBoxHAddress" VerticalAlignment="Top" Width="250" FontSize="18" FontFamily="Arial" />
 
 
         <!--For Wife-->
         <!--For First Name-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="400,118,0,0" Name="textBlockWFirstname" Text="First Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="462,204,0,0" Name="textBlockWFirstname" Text="First Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Last Name-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="400,150,0,0" Name="textBlockWLastName" Text="Last Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="462,242,0,0" Name="textBlockWLastName" Text="Last Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Middle Name-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="400,182,0,0" Name="textBlockWEmailId" Text="Middle Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="462,280,0,0" Name="textBlockWEmailId" Text="Middle Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Place of Birth-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="400,216,0,0" Name="textBlockWPlace" Text="Place of Birth:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18"  />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="462,318,0,0" Name="textBlockWPlace" Text="Place of Birth:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18"  />
         <!--For Sex-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="400,249,0,0" Name="textBlockWSex" Text="Sex:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Address-->
-        <TextBlock Height="22" HorizontalAlignment="Left" Margin="400,304,0,0" Name="textBlockWAddress" Text="Address:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="462,355,0,0" Name="textBlockWAddress" Text="Address:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Religion-->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="400,332,0,0" Name="textBlockWRel" Text="Religion:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
 
         <!-- Text Boxes-->
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="513,112,0,0" Name="textBoxWFirstName" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="512,140,0,0" Name="textBoxWLastName" VerticalAlignment="Top" Width="222" FontSize="18"/>
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="512,171,0,0" Name="textBoxWMiddleName" VerticalAlignment="Top" Width="222" FontSize="18"  />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="512,292,0,0" Name="textBoxWAddress" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="512,199,0,0" Name="textBoxWBirth" VerticalAlignment="Top" Width="222" FontSize="18"/>
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="512,319,0,0" Name="textBoxWReligion" VerticalAlignment="Top" Width="222" FontSize="18" />
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="577,194,0,0" Name="textBoxWFirstName" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial" />
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="577,232,0,0" Name="textBoxWLastName" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial"/>
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="577,270,0,0" Name="textBoxWMiddleName" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial"  />
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="577,308,0,0" Name="textBoxWBirth" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial"/>
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="577,345,0,0" Name="textBoxWAddress" VerticalAlignment="Top" Width="250" FontSize="18" FontFamily="Arial" />
 
-
-
-        <StackPanel Orientation="Vertical" Name="spRoles" Margin="139,247,646,406" Height="50" Width="95">
-            <RadioButton Name="radMale" HorizontalAlignment="Left"  VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="18"/>
-            <RadioButton Name="radFemale" HorizontalAlignment="Left"  VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="18"/>
-        </StackPanel>
-
-        <StackPanel Orientation="Vertical" Name="spRoles2" Margin="506,238,279,418" Height="50" Width="95">
-            <RadioButton Name="radMale2" HorizontalAlignment="Left"  VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="18"/>
-            <RadioButton x:Name="radFemale2" Content="Female" FontFamily="Arial" FontSize="18"/>
-        </StackPanel>
 
 
 
         <!-- Male Female -->
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="215,404,0,0" Name="textBlockPlaceMarriage" Text="Place of Marriage:" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" RenderTransformOrigin="0.145,0.696" />
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="215,439,0,0" Name="textBlockProvince" Text="Province:" VerticalAlignment="Top" Width="110" FontSize="18" FontFamily="Arial" />
-        <TextBlock Height="22" HorizontalAlignment="Left" Margin="215,467,0,0" Name="textBlockCity" Text="City/Municipality:" VerticalAlignment="Top" Width="136" FontSize="18" FontFamily="Arial" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="275,415,0,0" Name="textBlockPlaceMarriage" Text="Place of Marriage:" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" RenderTransformOrigin="0.145,0.696" />
+        <TextBlock Height="24" HorizontalAlignment="Left" Margin="275,489,0,0" Name="textBlockProvince" Text="Province:" VerticalAlignment="Top" Width="110" FontSize="18" FontFamily="Arial" />
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="275,452,0,0" Name="textBlockCity" Text="City/Municipality:" VerticalAlignment="Top" Width="136" FontSize="18" FontFamily="Arial" />
 
         <!-- Bottom Part Text Box-->
-        <TextBox Height="32" HorizontalAlignment="Left" Margin="366,391,0,0" Name="textBoxPlaceMarriage" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="366,423,0,0" Name="textBoxProvince" VerticalAlignment="Top" Width="222" FontSize="18" />
-        <TextBox Height="33" HorizontalAlignment="Left" Margin="366,456,0,0" Name="textBoxCity" VerticalAlignment="Top" Width="222" FontSize="18" />
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="430,410,0,0" Name="textBoxPlaceMarriage" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial" />
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="430,447,0,0" Name="textBoxCity" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial" />
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="430,484,0,0" Name="textBoxProvince" VerticalAlignment="Top" Width="222" FontSize="18" FontFamily="Arial" />
+
 
 
 
         <!-- Buttons -->
-        <Button Content="Submit" Height="34" HorizontalAlignment="Left" Margin="133,552,0,0" Name="Submit" VerticalAlignment="Top" Width="93" FontFamily="Arial" FontSize="18" />
-        <Button Content="Reset" Height="34" HorizontalAlignment="Left" Margin="384,552,0,0" Name="Reset" VerticalAlignment="Top" Width="93"  FontFamily="Arial" FontSize="18" Click="Reset_Click"/>
-        <Button Content="Close" Height="34" HorizontalAlignment="Right" Margin="0,552,532,0" Name="Close" VerticalAlignment="Top" Width="93" FontFamily="Arial" FontSize="18" />
+        <Button Content="Submit" Height="34" HorizontalAlignment="Left" Margin="270,562,0,0" Name="Submit" VerticalAlignment="Top" Width="94" FontFamily="Arial" FontSize="18" />
+        <Button Content="Reset" Height="34" HorizontalAlignment="Left" Margin="390,562,0,0" Name="Reset" VerticalAlignment="Top" Width="92"  FontFamily="Arial" FontSize="18" Click="Reset_Click"/>
+        <Button Content="Close" Height="34" HorizontalAlignment="Left" Margin="510,562,0,0" Name="Close" VerticalAlignment="Top" Width="94" FontFamily="Arial" FontSize="18" />
 
 
-        <Label Content="Marriage Certificate" HorizontalAlignment="Left" Margin="253,22,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT"/>
+        <Label Content="Marriage Certificate" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT" Margin="0,38,0,0"/>
 
     </Grid>
 

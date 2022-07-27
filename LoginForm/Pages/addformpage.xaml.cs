@@ -30,6 +30,7 @@ namespace LoginForm.Pages
             Baptismal.Visibility = Visibility.Hidden;
             Marriage.Visibility = Visibility.Hidden;
             Death.Visibility = Visibility.Hidden;
+            AddForms.Visibility = Visibility.Hidden;
         }
         private void Marriage_Click(object sender, RoutedEventArgs e)
         {
@@ -37,6 +38,7 @@ namespace LoginForm.Pages
             Baptismal.Visibility = Visibility.Hidden;
             Marriage.Visibility = Visibility.Hidden;
             Death.Visibility = Visibility.Hidden;
+            AddForms.Visibility = Visibility.Hidden;
         }
         private void Death_Click(object sender, RoutedEventArgs e)
         {
@@ -44,6 +46,8 @@ namespace LoginForm.Pages
             Baptismal.Visibility = Visibility.Hidden;
             Marriage.Visibility = Visibility.Hidden;
             Death.Visibility = Visibility.Hidden;
+            AddForms.Visibility = Visibility.Hidden;
+
         }
     }
     

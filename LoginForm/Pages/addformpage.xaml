@@ -12,24 +12,25 @@
     <Grid Background="Azure" Height="705" VerticalAlignment="Center" Width="900">
         <Frame Grid.Column="1" Background="White" Grid.Row="1"  x:Name="Main" Content="" NavigationUIVisibility="Hidden"  VerticalAlignment="Center" Height="705" Width="880"/>
         <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="100
-                "  Margin="334,100,0,388" Click="Baptismal_Click">
+                "  Margin="334,100,0,388" Click="Baptismal_Click" Background="#FF1970B3" BorderBrush="#FF1970B3">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="BabyFaceOutline" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Baptismal"/>
             </StackPanel>
         </Button>
         <Button x:Name="Marriage"  HorizontalAlignment="Left" Width="200" Height="100
-                "  Margin="334,240,0,250" Click="Marriage_Click">
+                "  Margin="334,240,0,250" Click="Marriage_Click" BorderBrush="#FF1970B3" Background="#FF1970B3">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="Ring" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Marriage"/>
             </StackPanel>
         </Button>
-        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="100"  Margin="334,380,0,118" Click="Death_Click">
+        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="100"  Margin="334,380,0,118" Click="Death_Click" Background="#FF1970B3" BorderBrush="#FF1970B3">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="Coffin" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Death Cert."/>
             </StackPanel>
         </Button>
+        <Label x:Name="AddForms" Content="Add Forms" HorizontalAlignment="Left" Margin="307,10,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold"/>
     </Grid>
 </Page>

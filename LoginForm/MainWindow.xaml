@@ -23,25 +23,25 @@
         
 
         <StackPanel Grid.Row="1" Margin="10,10,10,0">
-            <Button x:Name="AddForm" HorizontalAlignment="Center" Width="200" Height="52" Click="AddForm_Click">
+                <Button x:Name="AddForm" HorizontalAlignment="Center" Width="200" Height="52" Click="AddForm_Click" Background="#0F436B" BorderBrush="#FF0F436B">
                 <StackPanel Orientation="Horizontal" Width="175">
                     <materialDesign:PackIcon Kind="BookPlusMultipleOutline" Height="46" Width="64"></materialDesign:PackIcon>
                     <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ADD FORMS"></TextBlock>
                 </StackPanel>
             </Button>
-            <Button x:Name="Information"  HorizontalAlignment="Center" Width="200" Height="58" Click="Info_Click">
+            <Button x:Name="Information"  HorizontalAlignment="Center" Width="200" Height="58" Click="Info_Click" BorderBrush="#FF0F436B" Background="#FF0F436B">
                 <StackPanel Orientation="Horizontal" Width="180">
                     <materialDesign:PackIcon Kind="BookEditOutline" Height="46" Width="61"></materialDesign:PackIcon>
                     <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="CONFIRMATION"></TextBlock>
                 </StackPanel>
             </Button>
-            <Button x:Name="AboutUs"  HorizontalAlignment="Center" Width="200" Height="52" Click="AboutUs_Click">
+            <Button x:Name="AboutUs"  HorizontalAlignment="Center" Width="200" Height="52" Click="AboutUs_Click" Background="#FF0F436B" BorderBrush="#FF0F436B">
                 <StackPanel Orientation="Horizontal" Width="175">
                     <materialDesign:PackIcon Kind="AboutOutline" Height="46" Width="61"></materialDesign:PackIcon>
                     <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="ABOUT US"></TextBlock>
                 </StackPanel>
             </Button>
-            <Button x:Name="BtnLogout" HorizontalAlignment="Center" Width="200" Height="53" Click="BtnLogout_Click">
+            <Button x:Name="BtnLogout" HorizontalAlignment="Center" Width="200" Height="53" Click="BtnLogout_Click" Background="#FF0F436B" BorderBrush="#FF0F436B">
                 <StackPanel Orientation="Horizontal" Width="170">
                     <materialDesign:PackIcon Kind="Logout" Height="46" Width="61"></materialDesign:PackIcon>
                     <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="LOGOUT"></TextBlock>
@@ -50,16 +50,16 @@
        
 
         </StackPanel>
-        <Button x:Name="BtnExit" Grid.Column="1" Margin="850,0,0,43" Click="BtnExit_Click">
+        <Button x:Name="BtnExit" Grid.Column="1" Margin="850,0,0,43" Click="BtnExit_Click" Background="#FF0F436B" BorderBrush="#FF0F436B">
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="ExitToApp"></materialDesign:PackIcon>
             </StackPanel>
         </Button>
 
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PARISH RECORD SYSTEM" FontSize="40" FontWeight="Black" Grid.Column="1" Margin="10,0,10,0"/>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="PARISH RECORD SYSTEM" FontSize="40" FontWeight="Black" Grid.Column="1" Margin="10,0,10,0" Foreground="White" FontFamily="Arial"/>
 
 
-        <Frame Grid.Column="1" Background="BLUE" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"/>
+            <Frame Grid.Column="1" Background="#0F436B" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"/>
 
 
 
