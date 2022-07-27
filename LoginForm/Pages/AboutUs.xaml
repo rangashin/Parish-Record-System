@@ -5,13 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LoginForm.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="650" 
-      d:DesignWidth="800"
+      d:DesignHeight="705" 
+      d:DesignWidth="880"
       Title="AboutUs">
 
-    <Grid Height="650" Width="800">
+   
 
-        <Grid Background="Azure" Height="650" VerticalAlignment="Center">
+        <Grid Background="Azure" Height="705" VerticalAlignment="Center">
 
             <Label Content="About Us" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top" FontSize="72" FontWeight="Bold" FontFamily="Tw Cen MT"/>
 
@@ -25,12 +25,12 @@
             <Label Content="Parish Priest" HorizontalAlignment="Left" Margin="40,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
             <TextBlock HorizontalAlignment="Left" Margin="44,387,0,0" TextWrapping="Wrap" Text="Rev. Fr. Allan Samonte " VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Bold"/>
             <Label Content="Diocese" HorizontalAlignment="Left" Margin="40,441,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
+            <TextBlock HorizontalAlignment="Left" Margin="43,413,0,0" TextWrapping="Wrap" Text="Parish Priest and Shrine Rector" VerticalAlignment="Top" FontFamily="Arial" FontSize="18" FontWeight="Normal"/>
+            <TextBlock HorizontalAlignment="Left" Margin="43,489,0,0" TextWrapping="Wrap" Text="Roman Catholic Diocese of Novaliches" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
+            <Label Content="Bishop" HorizontalAlignment="Left" Margin="43,517,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
+            <TextBlock HorizontalAlignment="Left" Margin="43,564,0,0" TextWrapping="Wrap" Text="Most Rev. Roberto O. Gaa, D.D" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
 
 
-        </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="43,413,0,0" TextWrapping="Wrap" Text="Parish Priest and Shrine Rector" VerticalAlignment="Top" FontFamily="Arial" FontSize="18" FontWeight="Normal"/>
-        <TextBlock HorizontalAlignment="Left" Margin="43,489,0,0" TextWrapping="Wrap" Text="Roman Catholic Diocese of Novaliches" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
-        <Label Content="Bishop" HorizontalAlignment="Left" Margin="43,517,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="36" FontWeight="Bold" FontStyle="Italic"/>
-        <TextBlock HorizontalAlignment="Left" Margin="43,564,0,0" TextWrapping="Wrap" Text="Most Rev. Roberto O. Gaa, D.D" VerticalAlignment="Top" FontFamily="Arial" FontSize="20" FontWeight="Normal"/>
     </Grid>
+        
 </Page>

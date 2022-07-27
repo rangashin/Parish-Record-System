@@ -6,10 +6,11 @@
       xmlns:local="clr-namespace:LoginForm.Pages"
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="LoginForm.Pages.addformpage"
       mc:Ignorable="d"
-      Title="addformpage" Height="588" Width="993">
+        
+      Title="addformpage">
 
-    <Grid Margin="10,0,0,0">
-        <Frame Grid.Column="1" Background="White" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"   />
+    <Grid Background="Azure" Height="705" VerticalAlignment="Center" Width="900">
+        <Frame Grid.Column="1" Background="White" Grid.Row="1"  x:Name="Main" Content="" NavigationUIVisibility="Hidden"  VerticalAlignment="Center" Height="705" Width="880"/>
         <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="100
                 "  Margin="334,100,0,388" Click="Baptismal_Click">
             <StackPanel Orientation="Horizontal" Width="175">

@@ -50,7 +50,7 @@ namespace LoginForm
 
         private void AboutUs_Click(object sender, RoutedEventArgs e)
         {
-            Main.Content = new Page3();
+            Main.Content = new AboutUs();
         }
 
         private void BtnLogout_Click(object sender, RoutedEventArgs e)

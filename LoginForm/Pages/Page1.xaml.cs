@@ -29,8 +29,22 @@ namespace LoginForm.Pages
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Reset_Click(object sender, RoutedEventArgs e)
         {
+            textBoxHFirstName.Clear();
+            textBoxHLastName.Clear();
+            textBoxHMiddleName.Clear();
+            textBoxHBirth.Clear();
+            textBoxHAddress.Clear();
+
+            
+            
+
+
+
+
+
+
 
         }
     }

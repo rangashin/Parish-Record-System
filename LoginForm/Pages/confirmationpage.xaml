@@ -7,14 +7,14 @@
       xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
       mc:Ignorable="d" 
       
-      Title="confirmationpage" Height="588" Width="993">
+      Title="confirmationpage" Height="705" Width="900">
 
-    <Grid Margin="10,0,0,0">
+    <Grid Background="Azure" Height="705" VerticalAlignment="Center" Width="900">
         
-        <Frame Grid.Column="1" Background="White" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"   />
+        <Frame Grid.Column="1" Background="White" Grid.Row="1"  x:Name="Main" Content="" NavigationUIVisibility="Hidden" Width="880" Height="705"   />
 
         <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="100
-                "  Margin="334,100,0,388" Click="Baptismal_Click">
+                "  Margin="334,100,0,388" Click="Baptismal_Click" Background="#FF584971">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="BabyFaceOutline" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Baptismal"/>
@@ -22,14 +22,14 @@
         </Button>
         
         <Button x:Name="Marriage"  HorizontalAlignment="Left" Width="200" Height="100
-                "  Margin="334,240,0,250" Click="Marriage_Click">
+                "  Margin="334,240,0,250" Click="Marriage_Click" Background="#FF584971">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="Ring" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Marriage"/>
             </StackPanel>
         </Button>
         
-        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="100"  Margin="334,380,0,118" Click="Death_Click">
+        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="100"  Margin="334,380,0,118" Click="Death_Click" Background="#FF584971">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="Coffin" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Death Cert."/>

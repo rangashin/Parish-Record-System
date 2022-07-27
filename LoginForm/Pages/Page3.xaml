@@ -5,44 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LoginForm.Pages"
       mc:Ignorable="d" 
-      d:DesignHeight="1500" 
-	  d:DesignWidth="1000"
+     
       Title="Page3">
 
-    <Grid  Height="650" Width="800">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="324*"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,5,0,0" Name="textBlockHeading"
-        />
-        <Button Click="Button_Click" Grid.RowSpan="2">
-            <Button.Template>
-                <ControlTemplate>
-                    <TextBlock>  
-                    <ContentPresenter />
-                    </TextBlock>
-                </ControlTemplate>
-            </Button.Template>
-            <Button.Style>
-                <Style TargetType="Button">
-                    <Setter Property="Foreground" Value="Navy" />
-                    <Style.Triggers>
-                        <Trigger Property="IsMouseOver" Value="true">
-                            <Setter Property="Foreground" Value="Red" />
-                        </Trigger>
-                    </Style.Triggers>
-                </Style>
-            </Button.Style>
-        </Button>
-        <!--end Button as a Link button using style-->
-        <Grid Margin="-85,0,-99,0" Background="Azure" Height="650" VerticalAlignment="Center">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="149*" />
-                <RowDefinition Height="51*"/>
-                <!--   <RowDefinition Height="12*" />-->
-            </Grid.RowDefinitions>
-            <TextBlock Height="20" HorizontalAlignment="Left" Margin="394,60,0,0" x:Name ="errormessage" VerticalAlignment="Top" Width="246"  OpacityMask="Crimson" Foreground="#FFE5572C" />
+    
+        <Grid Background="Azure" Height="705" VerticalAlignment="Center" Width="880">
+            
+            
 
             <DatePicker Height="25" HorizontalAlignment="Left" Margin="152,164,0,0" Name="dateDPicker1" VerticalAlignment="Top" Width="222" FontFamily="Arial" FontSize="18" />
 
@@ -90,9 +59,9 @@
 
             <TextBox Height="33" HorizontalAlignment="Left" Margin="154,375,0,0" Name="textBoxDCity" VerticalAlignment="Top" Width="222" FontSize="18"/>
 
-            <StackPanel Orientation="Vertical" Name="spRoles" Margin="29,72,-29,89" Grid.RowSpan="2">
-                <RadioButton Name="radMale" HorizontalAlignment="Left" Margin="122,153,0,0" VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="18"/>
-                <RadioButton Name="radFemale" HorizontalAlignment="Left" Margin="122,0,0,0" VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="18"/>
+            <StackPanel Orientation="Vertical" Name="spRoles" Margin="152,232,439,370">
+                <RadioButton Name="radMale" HorizontalAlignment="Left"  VerticalAlignment="Top" Content="Male" FontFamily="Arial" FontSize="18"/>
+                <RadioButton Name="radFemale" HorizontalAlignment="Left"  VerticalAlignment="Top" Content="Female" FontFamily="Arial" FontSize="18"/>
             </StackPanel>
 
             <!-- Buttons -->
@@ -102,5 +71,5 @@
 
             <Label Content="Death Certificate" HorizontalAlignment="Left" Margin="25,15,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT"/>
         </Grid>
-    </Grid>
+    
 </Page>
