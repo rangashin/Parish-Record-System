@@ -24,5 +24,15 @@ namespace LoginForm.Pages
         {
             InitializeComponent();
         }
+
+        private void textBoxWBirth_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Search_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
