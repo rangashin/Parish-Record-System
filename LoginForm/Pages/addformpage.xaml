@@ -10,19 +10,21 @@
 
     <Grid Margin="10,0,0,0">
         <Frame Grid.Column="1" Background="White" Grid.Row="1" Margin="10,10,10,10" x:Name="Main" Content="" NavigationUIVisibility="Hidden"   />
-        <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="388,157,0,379" Click="Baptismal_Click">
+        <Button x:Name="Baptismal"  HorizontalAlignment="Left" Width="200" Height="100
+                "  Margin="334,100,0,388" Click="Baptismal_Click">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="BabyFaceOutline" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Baptismal"/>
             </StackPanel>
         </Button>
-        <Button x:Name="Marriage"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="388,255,0,281" Click="Marriage_Click">
+        <Button x:Name="Marriage"  HorizontalAlignment="Left" Width="200" Height="100
+                "  Margin="334,240,0,250" Click="Marriage_Click">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="Ring" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Marriage"/>
             </StackPanel>
         </Button>
-        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="52"  Margin="388,357,0,179" Click="Death_Click">
+        <Button x:Name="Death"  HorizontalAlignment="Left" Width="200" Height="100"  Margin="334,380,0,118" Click="Death_Click">
             <StackPanel Orientation="Horizontal" Width="175">
                 <materialDesign:PackIcon Kind="Coffin" Height="46" Width="61"/>
                 <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Death Cert."/>

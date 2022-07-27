@@ -24,5 +24,26 @@ namespace LoginForm.Pages
         {
             InitializeComponent();
         }
+        private void Baptismal_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page2G();
+            Baptismal.Visibility = Visibility.Hidden;
+            Marriage.Visibility = Visibility.Hidden;
+            Death.Visibility = Visibility.Hidden;
+        }
+        private void Marriage_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page1G();
+            Baptismal.Visibility = Visibility.Hidden;
+            Marriage.Visibility = Visibility.Hidden;
+            Death.Visibility = Visibility.Hidden;
+        }
+        private void Death_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Page3G();
+            Baptismal.Visibility = Visibility.Hidden;
+            Marriage.Visibility = Visibility.Hidden;
+            Death.Visibility = Visibility.Hidden;
+        }
     }
 }
