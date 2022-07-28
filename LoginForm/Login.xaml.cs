@@ -25,46 +25,8 @@ namespace LoginForm
         {
             InitializeComponent();
         }
-        /*SqlConnection con = new SqlConnection(@"Data Source=localhost;Initial Catalog=pos;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-        CustomerOrderWindow sales = new CustomerOrderWindow();
-        private void btnLoginClick(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                string sql = @"SELECT * FROM tbluser WHERE username=@username AND password=@password";
-                SqlCommand cmd = new SqlCommand(sql, con);
-                cmd.CommandType = CommandType.Text;
-                cmd.Parameters.AddWithValue("@username", username.Text);
-                cmd.Parameters.AddWithValue("@password", password.Text);
-                con.Open();
-                //MessageBox.Show(username.Text, password.Text);
-
-                //cmd.ExecuteNonQuery();
-                int user_id = Convert.ToInt32(cmd.ExecuteScalar());
-
-
-                if (user_id != 0)
-                {
-                    this.Close();
-                    sales.Show();
-                }
-                else
-                {
-                    MessageBox.Show("Invalid username and password");
-                }
-
-
-            }
-            catch
-            {
-                MessageBox.Show("Error login");
-            }
-            finally
-            {
-                con.Close();
-            }
-        }*/
-
+        int attempts = 3; string txtUser; string txtPass;
+        MainWindow _MainWindow = new MainWindow();
         public bool IsDarkTheme { get; set; }
         private readonly PaletteHelper paletteHelper = new PaletteHelper();
         private void toggleTheme(object sender, RoutedEventArgs e)
@@ -86,12 +48,40 @@ namespace LoginForm
         private void exitApp(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
-
         }
         protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
         {
             base.OnMouseLeftButtonDown(e);
             DragMove();
+        }
+
+        private void LoginClick_Click(object sender, RoutedEventArgs e)
+        {
+            string un = "admin";
+            string pw = "babyyouremysunandmoon";
+
+            txtUser = username.Text;
+            txtPass = password.Text;
+            
+            
+            if (txtUser == un && txtPass == pw)
+            {
+                this.Close();
+                _MainWindow.Show();
+            }
+            else
+            {
+                attempts--;
+                MessageBox.Show("Incorrect username or password.\nYou have " + attempts + " attempts.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                username.Clear();
+                password.Clear();
+            }
+
+            if(attempts == 0)
+            {
+                MessageBox.Show("You have reached maximum attempts.", "Maximum attempts", MessageBoxButton.OK, MessageBoxImage.Error);
+                this.Close();
+            }
         }
     }
 }

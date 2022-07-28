@@ -59,6 +59,5 @@ namespace LoginForm
             this.Close();
             login.Show();
         }
-
     }
 }

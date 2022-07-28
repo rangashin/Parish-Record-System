@@ -5,21 +5,13 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:LoginForm.Pages"
       mc:Ignorable="d" 
-     
       Title="Page1">
 
     <Grid Background="Azure" Height="705" VerticalAlignment="Center" Grid.RowSpan="5" Width="880">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="252*" />
-            <!--   <RowDefinition Height="12*" />-->
-        </Grid.RowDefinitions>
-
 
         <!-- Label Content -->
         <Label Content="Husband Details" HorizontalAlignment="Left" Margin="23,92,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="24"/>
         <Label Content="Wife Details" HorizontalAlignment="Left" Margin="297,96,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.577,0.448" FontFamily="Tw Cen MT" FontSize="24"/>
-
-
 
         <!-- For Husband -->
         <!--For First Name-->
@@ -30,17 +22,14 @@
         <TextBlock Height="22" HorizontalAlignment="Left" Margin="23,218,0,0" Name="textBlockHEmailId" Text="Middle Name:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Place of Birth-->
         <TextBlock Height="24" HorizontalAlignment="Left" Margin="23,254,0,0" Name="textBlockHPlace" Text="Place of Birth:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18"  />
-
         <!--For Address-->
         <TextBlock Height="22" HorizontalAlignment="Left" Margin="23,294,0,0" Name="textBlockHAddress" Text="Address:" VerticalAlignment="Top" Width="110" FontFamily="Arial" FontSize="18" />
         <!--For Religion-->
-
 
         <!-- Text Boxes-->
         <TextBox Height="34" HorizontalAlignment="Left" Margin="138,130,0,0" Name="textBoxHFirstName" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
         <TextBox Height="34" HorizontalAlignment="Left" Margin="138,168,0,0" Name="textBoxHLastName" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
         <TextBox Height="34" HorizontalAlignment="Left" Margin="138,206,0,0" Name="textBoxHMiddleName" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
-
         <TextBox Height="34" HorizontalAlignment="Left" Margin="138,244,0,0" Name="textBoxHBirth" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
         <TextBox Height="34" HorizontalAlignment="Left" Margin="138,282,0,0" Name="textBoxHAddress" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
 
@@ -63,10 +52,8 @@
         <TextBox Height="34" HorizontalAlignment="Left" Margin="412,134,0,0" Name="textBoxWFirstName" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
         <TextBox Height="34" HorizontalAlignment="Left" Margin="412,172,0,0" Name="textBoxWLastName" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial"/>
         <TextBox Height="32" HorizontalAlignment="Left" Margin="412,212,0,0" Name="textBoxWMiddleName" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial"  />
-        <TextBox Height="32" HorizontalAlignment="Left" Margin="412,248,0,0" Name="textBoxWBirth" VerticalAlignment="Top" Width="150" FontSize="18" TextChanged="textBoxWBirth_TextChanged" FontFamily="Arial"/>
+        <TextBox Height="32" HorizontalAlignment="Left" Margin="412,248,0,0" Name="textBoxWBirth" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial"/>
         <TextBox Height="32" HorizontalAlignment="Left" Margin="412,286,0,0" Name="textBoxWAddress" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
-
-
 
         <!-- Male Female -->
         <TextBlock Height="23" HorizontalAlignment="Left" Margin="574,181,0,0" Name="textBlockPlaceMarriage" Text="Place of Marriage:" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" RenderTransformOrigin="0.145,0.696" />
@@ -77,24 +64,34 @@
         <TextBox Height="32" HorizontalAlignment="Left" Margin="729,172,0,0" Name="textBoxPlaceMarriage" VerticalAlignment="Top" Width="128" FontSize="18" FontFamily="Arial" />
         <TextBox Height="33" HorizontalAlignment="Left" Margin="729,209,0,0" Name="textBoxCity" VerticalAlignment="Top" Width="128" FontSize="18" FontFamily="Arial" />
         <TextBox Height="34" HorizontalAlignment="Left" Margin="729,247,0,0" Name="textBoxProvince" VerticalAlignment="Top" Width="128" FontSize="18" FontFamily="Arial" />
-
-        <TextBlock Height="22" HorizontalAlignment="Left" Margin="15,413,0,0" x:Name="SearchName" VerticalAlignment="Top" Width="118" FontFamily="Arial" FontSize="18" ><Run Language="en-ph" Text="Search Name:"/></TextBlock>
-        <TextBox Height="34" HorizontalAlignment="Left" Margin="138,401,0,0" x:Name="SearchNameBox" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
-
-
+        <TextBlock Height="22" HorizontalAlignment="Left" Margin="15,413,0,0" x:Name="SearchName" VerticalAlignment="Top" Width="118" FontFamily="Arial" FontSize="18" ><Run Language="en-ph" Text="Search By ID:"/></TextBlock>
+        <TextBox Height="34" HorizontalAlignment="Left" Margin="138,401,0,0" x:Name="SearchIDTextBox" VerticalAlignment="Top" Width="150" FontSize="18" FontFamily="Arial" />
 
         <!-- Buttons -->
         <Button Content="Search" Height="34" HorizontalAlignment="Left" Margin="501,401,0,0" Name="Search" VerticalAlignment="Top" Width="88" FontFamily="Arial" FontSize="18" Click="Search_Click" />
-        <Button Content="Update" Height="34" HorizontalAlignment="Left" Margin="594,401,0,0" Name="Update" VerticalAlignment="Top" Width="88"  FontFamily="Arial" FontSize="18" />
-        <Button Content="Delete" Height="34" HorizontalAlignment="Right" Margin="0,401,105,0" Name="Delete" VerticalAlignment="Top" Width="88" FontFamily="Arial" FontSize="18" />
-        <Button Content="Close" Height="34" HorizontalAlignment="Right" Margin="0,401,10,0" Name="Close" VerticalAlignment="Top" Width="90" FontFamily="Arial" FontSize="18" />
-
+        <Button Content="Update" Height="34" HorizontalAlignment="Left" Margin="594,401,0,0" Name="Update" VerticalAlignment="Top" Width="88"  FontFamily="Arial" FontSize="18" Click="Update_Click" />
+        <Button Content="Delete" Height="34" HorizontalAlignment="Right" Margin="0,401,105,0" Name="Delete" VerticalAlignment="Top" Width="88" FontFamily="Arial" FontSize="18" Click="Delete_Click" />
+        <Button Content="Close" Height="34" HorizontalAlignment="Right" Margin="0,401,10,0" Name="Close" VerticalAlignment="Top" Width="90" FontFamily="Arial" FontSize="18" Click="Close_Click" />
 
         <Label Content="Marriage Certificate" HorizontalAlignment="Left" Margin="239,10,0,0" VerticalAlignment="Top" FontSize="48" FontWeight="Bold" FontFamily="Tw Cen MT"/>
 
-
-
-        <DataGrid x:Name ="MarriageGrid" HorizontalAlignment="Center" Margin="0,440,0,0" VerticalAlignment="Top" Width="860" Height="238" Background="Bisque" FontFamily="Arial" />
+        <DataGrid x:Name ="marriageGrid" HorizontalAlignment="Center" Margin="0,440,0,0" VerticalAlignment="Top" Width="860" Height="238" Background="Bisque" FontFamily="Arial" AutoGenerateColumns="False" SelectionChanged="marriageGrid_SelectionChanged" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding id}"/>
+                <DataGridTextColumn Header="Husband's FirstName" Binding="{Binding husbandfirstname}"/>
+                <DataGridTextColumn Header="Husband's LastName" Binding="{Binding husbandlastname}"/>
+                <DataGridTextColumn Header="Husband's MiddleName" Binding="{Binding husbandmiddlename}"/>
+                <DataGridTextColumn Header="Husband's BirthPlace" Binding="{Binding husbandbirthplace}"/>
+                <DataGridTextColumn Header="Husband's Address" Binding="{Binding husbandaddress}"/>
+                <DataGridTextColumn Header="Wife's FirstName" Binding="{Binding wifefirstname}"/>
+                <DataGridTextColumn Header="Wife's LastName" Binding="{Binding wifelastname}"/>
+                <DataGridTextColumn Header="Wife's MiddleName" Binding="{Binding wifemiddlename}"/>
+                <DataGridTextColumn Header="Wife's BirthPlace" Binding="{Binding wifebirthplace}"/>
+                <DataGridTextColumn Header="Wife's Address" Binding="{Binding wifeaddress}"/>
+                <DataGridTextColumn Header="PlaceOfMarriage" Binding="{Binding marriageplace}"/>
+                <DataGridTextColumn Header="City/Municipality" Binding="{Binding citymunicipality}"/>
+                <DataGridTextColumn Header="Province" Binding="{Binding province}"/>
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
-
 </Page>
