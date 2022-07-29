@@ -58,10 +58,10 @@ namespace LoginForm
         private void LoginClick_Click(object sender, RoutedEventArgs e)
         {
             string un = "admin";
-            string pw = "babyyouremysunandmoon";
+            string pw = "admin";
 
             txtUser = username.Text;
-            txtPass = password.Text;
+            txtPass = password.Password;
             
             
             if (txtUser == un && txtPass == pw)

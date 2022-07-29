@@ -26,7 +26,7 @@ namespace LoginForm.Pages
         {
             InitializeComponent();
         }
-
+        addformpage _addformpage = new addformpage();
         SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=parish;Integrated Security=True");
 
         public bool isValid()
